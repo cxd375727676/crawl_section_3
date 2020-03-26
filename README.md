@@ -8,3 +8,9 @@
   - 实验表明，协程版spider_2.py约为23秒，同步版spider_1.py约耗时31秒，节约时间，又避免多线程的race condition及线程开销
 
 - 动态网址：<https://dynamic1.scrape.cuiqingcai.com/>
+
+
+
+注：
+1. mongodb基本操作见:<https://www.jianshu.com/p/195b8f1601d1?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation>及<https://www.cnblogs.com/songzhenhua/p/9312715.html>
+2. Python也可异步读写Mongodb(motor+asyncio)，见<https://www.jianshu.com/p/2e8b79c819fb>
