@@ -118,7 +118,7 @@ if __name__ == '__main__':
                     format='%(asctime)s - %(levelname)s: %(message)s')
     n_pages = 7
     assert n_pages < TOTAL_PAGE
-    save_path = r"C:\Users\Administrator\Desktop\data.xlsx"
+    save_path = "保存路径"
     start = time.time()
     result = []
     asyncio.run(execute_tasks(n_pages))
@@ -126,4 +126,4 @@ if __name__ == '__main__':
     result.to_excel(save_path, index=False)
     end = time.time()
     logging.info("用时{:.2f}秒".format(end - start))
-    
+   
