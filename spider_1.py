@@ -102,5 +102,5 @@ if __name__ == '__main__':
                     format='%(asctime)s - %(levelname)s: %(message)s')
     n_pages = 7
     assert n_pages < TOTAL_PAGE
-    save_path = r"C:\Users\Administrator\Desktop\data1.xlsx"
+    save_path = "保存路径"
     main(n_pages, save_path)
