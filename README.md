@@ -1,6 +1,8 @@
 # crawl_section_3
 崔庆才-52讲轻松搞定网络爬虫（个人修改版）
 
+introduction<https://nbviewer.jupyter.org/github/cxd375727676/crawl_section_3/blob/master/introduction.ipynb>
+
 - 静态网址：<https://static1.scrape.cuiqingcai.com/>
   - 原教程优化版采取 多进程+PyQuery解析+PyMongo储存数据
   - 由于爬虫是IO密集型任务，使用多线程可能较好
