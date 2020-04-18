@@ -8,7 +8,7 @@ python3.7
 
 注意用命令行执行脚本，IPython也是loop中的一个event
 
-异步爬取 + 文本存储
+静态URL + 异步爬取 + 结果一次性存入pandas数据框
 
 耗时11秒左右
 
