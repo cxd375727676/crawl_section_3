@@ -4,7 +4,7 @@ Created on Thu Mar 26 13:46:28 2020
 
 @author: Administrator
 
-同步爬取 + 文本存储
+静态URL + 同步爬取 + 结果一次性写入pandas数据框
 
 耗时31秒多
 """
