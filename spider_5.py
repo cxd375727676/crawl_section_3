@@ -139,7 +139,7 @@ async def main(n_page, wf_name, log_fname=None, log_level=logging.INFO):
                            'cover', 'categories', 'directors', 'actors', 
                            'score', 'dramma', 'regions', 'published_at', 'minute']
                 header = ','.join(header) + '\n'
-                wf.write(header)
+                await wf.write(header)
                 tasks = []
                 for page in range(1, 1 + n_page):
                     tasks.append(asyncio.create_task(task(session, page, wf)))
