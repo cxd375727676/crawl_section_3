@@ -10,7 +10,7 @@
   - 实验表明，协程版spider_2.py约为11秒，同步版spider_1.py约耗时31秒，节约时间，又避免多线程的race condition及线程开销
 
 - 动态网址：<https://dynamic1.scrape.cuiqingcai.com/>
-  - [spider_3.ipynb](https://nbviewer.jupyter.org/github/cxd375727676/crawl_section_3/blob/master/spider_3.ipynb)
+  - 查看[spider_3.ipynb](https://nbviewer.jupyter.org/github/cxd375727676/crawl_section_3/blob/master/spider_3.ipynb)
 
 
 
